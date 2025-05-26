@@ -29,9 +29,28 @@
             margin-left: 25px;
         }
         .description {
-            font-size: 20px;
+            font-size: 18px;
+            margin-top: 40px;
             margin-left: 25px;
         }
+
+        .image-row {
+            display: flex;
+            justify-content: space-between; /* Even spacing */
+            align-items: center;
+        }
+
+        .image-row a {
+            flex: 1; /* Each image/link takes equal width */
+            text-align: center; /* Center the image inside the link */
+        }
+
+        .image-row img {
+            width: 80%; /* Adjust this to fit within the flex space */
+            max-width: 150px; /* Optional: limit the max size */
+            height: 160px;
+        }
+
     </style>
     <title>Assignment 1</title>
 </head>
@@ -48,8 +67,11 @@
         <p class = "description">Currently studying UI/UX Design with a focus on user-centered interfaces and visual communication principles.</p>
     
         <div class="studies">
-            <div class="designs">
-                
+            <div class="image-row">
+                <a herf = "coming_soon.html"> <img src="computer_repair.png"> </a>
+                <a herf = "coming_soon"> <img src="pacman.png"> </a>
+                <a herf = "coming_soon"> <img src="tech.png"> </a>
+                <a herf = "coming_soon"> <img src="temp.png"> </a>
             </div>
         </div>
     </div>
