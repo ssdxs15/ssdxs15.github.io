@@ -94,4 +94,40 @@ body {
     border: 2px solid #ddd;
   }
   
+  #booking {
+    background-color: #fdfdfd;
+    padding: 40px 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #booking-form label {
+    font-weight: bold;
+  }
+  
+  #booking-form input,
+  #booking-form select,
+  #booking-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  #booking-form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #booking-form button:hover {
+    background-color: #0056b3;
+  }
   
